@@ -1,0 +1,67 @@
+.main-content {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 40px 16px;
+}
+
+#title {
+    color:#333333;
+    font-family: arial;
+    padding: 10px 16px;
+    font-size: 64px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+input {
+    border: 2px solid #888888;
+    padding: 8px;
+
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 11px;
+}
+
+#message-1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+#message-2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -110px;
+    margin-left: 350px;
+}
+
+#date {
+    font-size: 20px;
+}
+
+#sumText {
+    margin: -85px 400px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #444444;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#exchangeText {
+    font-size: 40px;
+    font-weight: bold;
+    color: #444444;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#sum {
+    font-size: 23px;
+}
