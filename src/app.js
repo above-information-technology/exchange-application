@@ -3,6 +3,8 @@ const app = express()
 const path = require('path')
 const hbs = require('hbs')
 
+const port = process.env.PORT || 3000
+
 const convert = require('./utils/convert')
 
 const viewsPath = path.join(__dirname, '../templates/views')
@@ -41,6 +43,6 @@ app.get('/convert', (req, res) => {
     
 })
 
-app.listen(3000, () => {
-    console.log('App is up on port 3000...')
+app.listen(port, () => {
+    console.log('App is up on port ' + port)
 })

@@ -12,7 +12,7 @@ converterForm.addEventListener('submit', (e) => {
     messageOne.textContent = "Loading..."
     messageTwo.textContent = ''
 
-    fetch('http://localhost:3000/convert?date=' + date.value).then((res) => {
+    fetch('/convert?date=' + date.value).then((res) => {
         res.json().then((data) => {
             if (data.error){
                 messageOne.textContent = "There is an error"
